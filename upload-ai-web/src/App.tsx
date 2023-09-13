@@ -14,7 +14,7 @@ export function App() {
 
         <div className="flex items-center gap-3">
           <span className="text-sm text-muted-foreground">
-            Desenvolvido com 💜 no NLW da Rocketseat
+            Developed with 💜 at NLW's Rocketseat
           </span>
 
           <Separator  orientation="vertical" className="h-6"/>
@@ -94,7 +94,7 @@ export function App() {
 
           <div className="space-y-2">
             <Label>Model</Label>
-            <Select disable defaultValue="gpt3.5">
+            <Select disabled defaultValue="gpt3.5">
               <SelectTrigger>
                 <SelectValue />
               </SelectTrigger>
